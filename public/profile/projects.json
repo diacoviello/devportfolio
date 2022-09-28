@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "image": "images/projects/concertsHomepage.png",
+      "title": "MyConcerts",
+      "bodyText": "- Concert Attendance Tracker Website made in React\n -  Users can log in and track favorite artists, see upcoming concerts for saved artists, and view data charts of information from all prevously attended concerts.\n - *Note: App is no longer live due to expired API keys.*",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/zpinson/concertapp"
+        },
+        {
+          "text": "App is no longer live due to expired API keys"
+        }
+      ],
+      "tags": ["React", "Material UI", "JavaScript"]
+    },
+    {
+      "image": "images/projects/python-logo.jpg",
+      "title": "ImgSaverCSV",
+      "bodyText": "- Python script that will pull URL links in a .csv file and download them into an assigned directory; also pulls name information from the same row as the link to name the file",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diacoviello/ImgSaverCSV"
+        }
+      ],
+      "tags": ["Python", "Pandas", "URLlib", "Anaconda"]
+    },
+    {
+      "image": "images/projects/teamgeneratorimg.png",
+      "title": "Team Generator",
+      "bodyText": "- This is a program to generate Team Member Profile ID cards to display on a page",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diacoviello/TeamProfileGen"
+        }
+      ],
+      "tags": ["JavaScript", "Node", "npm"]
+    },
+    {
+      "image": "images/projects/weatherDash.png",
+      "title": "My Weather Dashboard",
+      "bodyText": "- Application to find weather in major cities. Includes 5 day forecast, icon display, loads of data called from OpenWeather API, and local storage for cities searched to recall them later.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diacoviello/Weather"
+        },
+        {
+          "text": "Live",
+          "href": "https://diacoviello.github.io/Weather/"
+        }
+      ],
+      "tags": ["JavaScript", "Node", "npm", "APIs"]
+    }
+  ]
+}

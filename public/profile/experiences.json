@@ -1,0 +1,22 @@
+{
+  "experiences": [
+    {
+      "title": "Development Intern",
+      "subtitle": "Accesso",
+      "workType": "Part-time",
+      "workDescription": [
+        "Assist in the development and maintenance of software being built. Also help create intuitive and effective documentation on the projects."
+      ],
+      "dateText": "07/2022 – Present"
+    },
+    {
+      "title": "Developer",
+      "subtitle": "GoStadium, LLC",
+      "workType": "Volunteer",
+      "workDescription": [
+        "GoStadium is a company that develops 3rd part apps and projects for the Pokemon GO community, such as ranking for battles, raids, etc. I assisted in updating projects to newer technologies as well as debug and whatever else was needed."
+      ],
+      "dateText": "06/2022 – Present"
+    }
+  ]
+}
