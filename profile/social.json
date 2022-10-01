@@ -1,0 +1,16 @@
+{
+  "social": [
+    {
+      "network": "linkedin",
+      "href": "http://www.linkedin.com/in/david-iacoviello"
+    },
+    {
+      "network": "github",
+      "href": "https://github.com/diacoviello"
+    },
+    {
+      "network": "email",
+      "href": "mailto:iacoviello.david@gmail.com"
+    }
+  ]
+}

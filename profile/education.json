@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "title": "Jan 2021 - Apr 2021",
+      "cardTitle": "2U Bootcamp - Full-Stack Development",
+      "cardSubtitle": "Rutgers University, New Brunswick, NJ",
+      "cardDetailedText": "Certified",
+      "icon": {
+        "src": "images/education/Rutgers.png"
+      }
+    },
+    {
+      "title": "Sep 2006 - May 2012",
+      "cardTitle": "B.M. Music Education, minor Philosophy ",
+      "cardSubtitle": "William Paterson University, Wayne, NJ",
+      "cardDetailedText": "GPA - 3.8",
+      "icon": {
+        "src": "images/education/wpu.png"
+      }
+    }
+  ]
+}

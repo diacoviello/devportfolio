@@ -1,0 +1,2 @@
+(this.webpackJsonpdevdaveportfolio=this.webpackJsonpdevdaveportfolio||[]).push([[7],{85:function(e,t,a){"use strict";a.r(t);a(0),a(87);var i=a(1);t.default=function(e){var t=e.title;return Object(i.jsx)("div",{className:"header",children:t})}}}]);
+//# sourceMappingURL=7.f5072b00.chunk.js.map
