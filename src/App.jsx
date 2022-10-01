@@ -1,10 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BrowserRouter } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
 import useDarkMode from 'use-dark-mode';
-import NavBar from './components/NavBar';
+import { ThemeProvider } from 'styled-components';
 import AppContext from './AppContext';
 import MainApp from './MainApp';
 import GlobalStyles from './theme/GlobalStyles';
@@ -19,8 +18,9 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <NavBar />
-          <MainApp />
+          <Router>
+            <MainApp />
+          </Router>
         </div>
       </ThemeProvider>
     </AppContext.Provider>

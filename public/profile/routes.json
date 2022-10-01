@@ -2,23 +2,27 @@
   "sections": [
     {
       "component": "About",
-      "path": "myprofile/about",
-      "headerTitle": "About"
+      "path": "/about",
+      "headerTitle": "About",
+      "element": "<About />"
     },
     {
       "component": "Education",
-      "path": "myprofile/education",
-      "headerTitle": "Education"
+      "path": "/education",
+      "headerTitle": "Education",
+      "element": "<Education />"
     },
     {
       "component": "Experience",
-      "path": "myprofile/experience",
-      "headerTitle": "Experience"
+      "path": "/experience",
+      "headerTitle": "Experience",
+      "element": "<Experience />"
     },
     {
       "component": "Projects",
-      "path": "myprofile/projects",
-      "headerTitle": "Projects"
+      "path": "/projects",
+      "headerTitle": "Projects",
+      "element": "<Projects />"
     }
   ]
 }
