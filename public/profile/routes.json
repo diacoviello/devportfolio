@@ -3,6 +3,7 @@
     {
       "component": "Home",
       "path": "/",
+      "headerTitle": "",
       "element": "<Home />"
     },
     {
