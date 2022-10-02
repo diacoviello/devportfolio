@@ -1,13 +1,9 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FallbackSpinner from './components/FallbackSpinner';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import endpoints from './constants/endpoints';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
 import useDarkMode from 'use-dark-mode';
+import { ThemeProvider } from 'styled-components';
 import AppContext from './AppContext';
 import MainApp from './MainApp';
 import GlobalStyles from './theme/GlobalStyles';
@@ -34,7 +30,7 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <MainApp />
           </Router>
         </div>
