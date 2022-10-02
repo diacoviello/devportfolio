@@ -1,6 +1,12 @@
 {
   "sections": [
     {
+      "component": "Home",
+      "path": "/",
+      "headerTitle": "",
+      "element": "<Home />"
+    },
+    {
       "component": "About",
       "path": "/about",
       "headerTitle": "About",
