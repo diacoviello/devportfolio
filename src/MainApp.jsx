@@ -31,7 +31,7 @@ function MainApp() {
                   <Route
                     key={route.headerTitle}
                     path={route.path}
-                    element={<SectionComponent header={route.element} />}
+                    element={<SectionComponent header={route.component} />}
                   />
                 );
               })}
