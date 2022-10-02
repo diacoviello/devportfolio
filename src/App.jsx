@@ -13,18 +13,6 @@ function App() {
   window.matchMedia = null;
   const darkMode = useDarkMode(true);
 
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch(endpoints.routes, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
-
-
   return (
     <AppContext.Provider value={{ darkMode }}>
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
