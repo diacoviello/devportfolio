@@ -8,6 +8,7 @@ import AppContext from './AppContext';
 import MainApp from './MainApp';
 import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
+// import background from './logo.png';
 
 function App() {
   window.matchMedia = null;
