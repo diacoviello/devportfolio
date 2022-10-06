@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "image": "images/projects/metronome.png",
+      "title": "Metronome",
+      "bodyText": "- Concert Attendance Tracker Website made in React\n -  Users can access a simple metronome application in browser with responsive range slider, manual button tempo changing, and dynamic tempo text indicators to help practice.\n -",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diacoviello/metronome"
+        },
+        {
+          "text": "Live",
+          "href": "https://diacoviello.github.io/metronome/"
+        }
+      ],
+      "tags": ["HTML", "CSS", "Materialize", "JavaScript", "Timer.js"]
+    },
+    {
       "image": "images/projects/concertsHomepage.png",
       "title": "MyConcerts",
       "bodyText": "- Concert Attendance Tracker Website made in React\n -  Users can log in and track favorite artists, see upcoming concerts for saved artists, and view data charts of information from all prevously attended concerts.\n - *Note: App is no longer live due to expired API keys.*",
