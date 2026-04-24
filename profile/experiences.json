@@ -1,22 +1,22 @@
 {
   "experiences": [
     {
-      "title": "Development Intern",
+      "title": "Production Support Engineer",
+      "subtitle": "Accesso",
+      "workType": "Full-time",
+      "workDescription": [
+        "Serve as the technical bridge between a software platform and its clients, responsible for turning signed contracts into working implementations. Day-to-day, this means configuring the platform to meet client-specific requirements, building custom integrations and API connections, setting up SSO/authentication, executing data migrations, and developing scoped custom solutions such as scripts and reports. The PSE works directly with clients to gather technical requirements and translate business needs into concrete, implementable solutions — all within the boundaries of a defined Statement of Work. Collaboration is constant: PSEs interface regularly with Sales, Support, Product, and Engineering teams, and serve as a critical feedback loop from the field back to the product. The role demands strong technical skills (SQL, REST APIs, scripting, SSO/SAML) paired with equally strong client-facing communication, since explaining why something can't be done in three weeks is just as important as actually doing it. Critically, the PSE is not a support function — post-go-live break/fix is someone else's circus — and does not own the product roadmap, though they absolutely influence it through real-world implementation experience."
+      ],
+      "dateText": "07/2022 – Present"
+    },
+    {
+      "title": "Software Engineering Intern",
       "subtitle": "Accesso",
       "workType": "Part-time",
       "workDescription": [
         "Assist in the development and maintenance of software being built. Also help create intuitive and effective documentation on the projects."
       ],
       "dateText": "07/2022 – Present"
-    },
-    {
-      "title": "Developer",
-      "subtitle": "GoStadium, LLC",
-      "workType": "Volunteer",
-      "workDescription": [
-        "GoStadium is a company that develops 3rd part apps and projects for the Pokemon GO community, such as ranking for battles, raids, etc. I assisted in updating projects to newer technologies as well as debug and whatever else was needed."
-      ],
-      "dateText": "06/2022 – Present"
     }
   ]
 }
