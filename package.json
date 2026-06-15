@@ -1,7 +1,7 @@
 {
   "name": "devdaveportfolio",
   "version": "0.1.0",
-  "homepage": "https://diacoviello.github.io/devportfolio",
+  "homepage": "https://diacoviello.github.io/devportfolio/",
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.14.1",
@@ -32,10 +32,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
+    "eject": "NODE_OPTIONS=--openssl-legacy-provider react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -61,7 +61,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^4.0.0",
     "react-error-overlay": "6.0.9"
   },
