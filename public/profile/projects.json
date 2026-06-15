@@ -7,14 +7,14 @@
       "links": [
         {
           "text": "GitHub",
-          "href": "https://github.com/diacoviello/metronome"
+          "href": "https://github.com/diacoviello/The-Hatch-Timer"
         },
         {
           "text": "Live",
           "href": "https://diacoviello.github.io/metronome/"
         }
       ],
-      "tags": ["HTML", "CSS", "Materialize", "JavaScript", "Timer.js"]
+      "tags": ["HTML", "CSS", "JavaScript"]
     },
     {
       "image": "images/projects/metronome.png",
