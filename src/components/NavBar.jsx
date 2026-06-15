@@ -60,7 +60,7 @@ const NavBar = () => {
     >
       <Container>
         {data?.logo && (
-          <Navbar.Brand as={ Link } to="/">
+          <Link to="/" className="navbar-brand">
             <img
               src={data?.logo?.source}
               className="d-inline-block align-top"
@@ -71,7 +71,7 @@ const NavBar = () => {
                   : styles.logoStyle
               }
             />
-          </Navbar.Brand>
+          </Link>
         )}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
