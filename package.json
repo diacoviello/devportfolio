@@ -1,7 +1,7 @@
 {
   "name": "devdaveportfolio",
   "version": "0.1.0",
-  "homepage": "https://diacoviello.github.io/devportfolio/",
+  "homepage": "https://diacoviello.com/",
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.14.1",

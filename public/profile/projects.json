@@ -1,9 +1,25 @@
 {
   "projects": [
     {
+      "image": "images/projects/The-Hatch-Timer.png",
+      "title": "The Hatch Timer",
+      "bodyText": "- The Timer from the TV Show <i>LOST</i> using HTML/CSS/JavaScript\n -  Every 108 minutes, the button must be pushed. Cosplay as Desmond, Locke, Jack, or any of the Losties by having to wait for the timer to count down from 108 minutes. Miss pressing in time...well, you'll see.\n -",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diacoviello/metronome"
+        },
+        {
+          "text": "Live",
+          "href": "https://diacoviello.github.io/metronome/"
+        }
+      ],
+      "tags": ["HTML", "CSS", "Materialize", "JavaScript", "Timer.js"]
+    },
+    {
       "image": "images/projects/metronome.png",
       "title": "Metronome",
-      "bodyText": "- Concert Attendance Tracker Website made in React\n -  Users can access a simple metronome application in browser with responsive range slider, manual button tempo changing, and dynamic tempo text indicators to help practice.\n -",
+      "bodyText": "- Metronome for Practice\n -  Users can access a simple metronome application in browser with responsive range slider, manual button tempo changing, and dynamic tempo text indicators to help practice.\n -",
       "links": [
         {
           "text": "GitHub",
