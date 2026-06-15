@@ -9,10 +9,7 @@
           "text": "GitHub",
           "href": "https://github.com/diacoviello/The_Hatch_Timer"
         },
-        {
-          "text": "Live",
-          "href": "https://diacoviello.github.io/The_Hatch_Timer/"
-        }
+
       ],
       "tags": ["HTML", "CSS", "JavaScript"]
     },
@@ -66,7 +63,11 @@
       "links": [
         {
           "text": "GitHub",
-          "href": "https://github.com/diacoviello/TeamProfileGen"
+          "href": "https://github.com/diacoviello/The_Hatch_Computer"
+        },
+        {
+          "text": "Live",
+          "href": "https://diacoviello.github.io/The_Hatch_Computer/"
         }
       ],
       "tags": ["JavaScript", "Node", "npm"]
